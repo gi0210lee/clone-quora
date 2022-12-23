@@ -1,0 +1,118 @@
+.question_modal {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: auto;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+.question_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.question_modal .modal_title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.question_modal .modal_title > h5 {
+  color: yellowgreen;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.question_modal .modal_title > h5:hover {
+  color: lightgoldenrodyellow;
+}
+
+.question_modal .modal_info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.question_modal .modal_info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.question_modal .modal_scope {
+  display: flex;
+  align-items: center;
+  color: yellowgreen;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.question_modal .modal_field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.question_modal .modal_fieldLink {
+  color: yellowgreen;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.question_modal .modal_fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.question_modal .modal_buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 0px;
+  border-top: 1px solid lightgray;
+}
+
+.question_modal .modal_buttonCancel {
+  /* margin-left: auto; */
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: yellowgreen;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.question_modal .modal_buttonOK {
+  margin-left: auto;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  color: yellowgreen;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}

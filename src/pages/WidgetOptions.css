@@ -1,0 +1,31 @@
+.widgetOpyions {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.wiget_content {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgreen;
+}
+
+.wiget_content > img {
+  width: 30px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.wiget_contentTitle {
+  margin-left: 10px;
+}
+
+.wiget_contentTitle > h5 {
+  color: rgb(70, 68, 68);
+}
+
+.wiget_contentTitle > p {
+  color: gray;
+  font-size: small;
+}

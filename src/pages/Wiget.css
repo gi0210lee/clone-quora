@@ -1,0 +1,28 @@
+.wiget {
+  flex: 0.2;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  max-height: 85vh;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.widget_header {
+  border-bottom: 1px solid lightgray;
+}
+
+.widget_header > h5 {
+  padding: 10px;
+  color: darkturquoise;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.wiget_contents {
+  display: flex;
+  flex-direction: column;
+}
